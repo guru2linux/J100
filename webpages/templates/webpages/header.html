@@ -1,0 +1,29 @@
+<!-- pages/templates/pages/header.html -->
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {% block title %}J100{% endblock title %} </title>
+    <link rel="stylesheet" href="{% static 'webpages/styles.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href={% url 'landing_page' %}>Home</a></li>
+                <li><a href= {% url 'about_us' %}>About Us</a></li>
+                <li><a href= {% url 'lodge_officers' %}>Lodge Members</a></li>
+                <li><a href= {% url 'contact_us' %}>Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="https://www.facebook.com/JML100PHA"><img src="{% static 'webpages/images/facebook.png' %}" alt="Facebook"></a>
+            <a href="https://www.instagram.com/jerusalem_military_lodge_100/"><img src="{% static 'webpages/images/instagram.png' %}" alt="Instagram"></a>
+        </div>
+    </header>
+</body>
+</html>

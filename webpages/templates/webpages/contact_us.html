@@ -1,0 +1,47 @@
+<!-- pages/templates/pages/contact_us.html -->
+
+{% include 'webpages/header.html' %}
+
+{% block content %}
+    <div class="content-wrapper">
+        <!-- Page content here -->
+        <h1>Contact Us</h1>
+        <div class="contact-form-container">
+            <form method="post" action= {% url 'send_email' %} novalidate>
+            {% csrf_token %}
+            
+            <div>
+                <label for="{{ form.name.id_for_label }}">Name</label>
+                {{ form.name }}
+            </div>
+            
+            <div>
+                <label for="{{ form.email.id_for_label }}">Email</label>
+                {{ form.email }}
+            </div>
+            
+            <div>
+                <label for="{{ form.subject.id_for_label }}">Subject</label>
+                {{ form.subject }}
+            </div>
+            
+            <div>
+                <label for="{{ form.message.id_for_label }}">Message</label>
+                {{ form.message }}
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+{% endblock content %} 
+
+{% block messages %}
+  {% if messages %}
+    <div class="alert alert-{{ messages.tags }} text-center" role="alert">
+      {{ messages }}
+    </div>
+  {% endif %}
+{% endblock %}
+
+{% include 'webpages/footer.html' %}
