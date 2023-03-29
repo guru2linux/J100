@@ -1,0 +1,14 @@
+/* Styles for the label element */
+label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+/* Styles for the label element for the message field */
+label[for="{{ form.message.id_for_label }}"] {
+  align-self: start;
+  line-height: 30px;
+}
+
+  
+  

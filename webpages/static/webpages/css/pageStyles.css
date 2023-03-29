@@ -1,0 +1,50 @@
+/* Styles for the HTML and body elements */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for the h1 element */
+h1{
+  text-align: center;
+}
+
+/* Styles for the anchor element */
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Styles for the submit button element */
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Styles for the form element */
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+/* Styles for the content wrapper element */
+.content-wrapper {
+  flex: 1;
+}
+
+/* Styles for the input and textarea elements */
+input, textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  
+}

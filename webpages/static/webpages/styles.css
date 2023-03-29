@@ -1,116 +1,25 @@
 /* pages/static/pages/styles.css */
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+/* Styles for the header and footer element */
+@import url("webpages/css/base.css");
 
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+/* Styles for the navigation element */
+@import url("webpages/css/navbar.css");
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+/* Styles for Social-Media icons */
+@import url("webpages/css/social-media.css");
 
-nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
+/* Styles for page layout */
+@import url("webpages/css/pageStyles.css");
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
+/* Styles for list elements */
+@import url("webpages/css/listElements.css");
 
-nav ul li a:hover {
-  text-decoration: underline;
-}
+/* Styles for form elemnets */
+@import url("webpages/css/forms.css");
 
-.social-media {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
+/* Styles for button elements */
+@import url("webpages/css/labels.css");
 
-.social-media a {
-  margin-left: 10px;
-}
-
-.social-media img {
-  width: 30px;
-  height: 30px;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-  }
-  
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .content-wrapper {
-    flex: 1;
-  }
-  
-  footer {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .contact-form-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  form {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-  
-  input, textarea {
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-  }
-  
-  button[type="submit"] {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #0056b3;
-  }
-
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  label[for="{{ form.message.id_for_label }}"] {
-    align-self: start;
-  }
-
-  h1{
-    text-align: center;
-  }
+/* hover sytling */
+@import url("webpages/css/hover.css");
