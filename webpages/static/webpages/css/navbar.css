@@ -4,4 +4,9 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #000;
+}
+
+nav a {
+    color: #FFD700;
 }

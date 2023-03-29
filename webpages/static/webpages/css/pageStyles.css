@@ -4,6 +4,7 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    background-color: #000;
 }
 
 /* Styles for the h1 element */

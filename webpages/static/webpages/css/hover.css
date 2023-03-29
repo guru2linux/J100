@@ -2,3 +2,7 @@
 button[type="submit"]:hover {
     background-color: #0056b3;
   }
+
+nav a:hover {
+  color: #fff;
+} 
