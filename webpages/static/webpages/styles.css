@@ -4,22 +4,22 @@
 @import url("css/base.css");
 
 /* Styles for the navigation element */
-@import url("/css/navbar.css");
+@import url("css/navbar.css");
 
 /* Styles for Social-Media icons */
-@import url("/css/social-media.css");
+@import url("css/social-media.css");
 
 /* Styles for page layout */
-@import url("/css/pageStyles.css");
+@import url("css/pageStyles.css");
 
 /* Styles for list elements */
-@import url("/css/listElements.css");
+@import url("css/listElements.css");
 
 /* Styles for form elemnets */
-@import url("/css/forms.css");
+@import url("css/forms.css");
 
 /* Styles for button elements */
-@import url("/css/labels.css");
+@import url("css/labels.css");
 
 /* hover sytling */
-@import url("/css/hover.css");
+@import url("css/hover.css");
