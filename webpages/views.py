@@ -3,6 +3,7 @@ from django.shortcuts import render, redirect
 from django.core.mail import send_mail
 from django.conf import settings
 from .forms import ContactForm
+from .models import ContactMessage
 
 
 class LandingPageView(View):
@@ -35,6 +36,11 @@ class ContactUsView(View):
             from_email = settings.DEFAULT_FROM_EMAIL
             to_email = 'dulcio.lee@gmail.com'
             send_mail(subject, message, from_email, [to_email])
+            
+            name = form.cleaned_data['name']
+            email = form.cleaned_data['email']
+            message = form.cleaned_data['message']
+            ContactMessage.objects.create(name=name, email=email, message=message)
             return redirect('success')
         return render(request, 'webpages/contact_us.html', {'form': form})
 

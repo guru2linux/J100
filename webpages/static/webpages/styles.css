@@ -1,25 +1,25 @@
 /* pages/static/pages/styles.css */
 
 /* Styles for the header and footer element */
-@import url("webpages/css/base.css");
+@import url("css/base.css");
 
 /* Styles for the navigation element */
-@import url("webpages/css/navbar.css");
+@import url("/css/navbar.css");
 
 /* Styles for Social-Media icons */
-@import url("webpages/css/social-media.css");
+@import url("/css/social-media.css");
 
 /* Styles for page layout */
-@import url("webpages/css/pageStyles.css");
+@import url("/css/pageStyles.css");
 
 /* Styles for list elements */
-@import url("webpages/css/listElements.css");
+@import url("/css/listElements.css");
 
 /* Styles for form elemnets */
-@import url("webpages/css/forms.css");
+@import url("/css/forms.css");
 
 /* Styles for button elements */
-@import url("webpages/css/labels.css");
+@import url("/css/labels.css");
 
 /* hover sytling */
-@import url("webpages/css/hover.css");
+@import url("/css/hover.css");
