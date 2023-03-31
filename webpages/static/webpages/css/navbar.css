@@ -4,9 +4,21 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #000;
+    width: 100%;
+    
+    
 }
 
 nav a {
-    color: #FFD700;
+    color: white;
+}
+
+.tagline {
+    color: white;
+    font-size: 25px;
+}
+
+.topnav {
+    display: flex;
+    justify-content: flex-start;
 }

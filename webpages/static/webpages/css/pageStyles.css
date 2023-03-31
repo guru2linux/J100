@@ -5,6 +5,7 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: #000;
+    color: white;
 }
 
 /* Styles for the h1 element */
@@ -21,7 +22,7 @@ a {
 
 /* Styles for the submit button element */
 button[type="submit"] {
-  background-color: #007bff;
+  background-color: #666144;
   color: white;
   border: none;
   padding: 10px 20px;
