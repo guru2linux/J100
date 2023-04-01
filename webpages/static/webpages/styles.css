@@ -23,3 +23,9 @@
 
 /* hover sytling */
 @import url("css/hover.css");
+
+/* Dropdowm menu styling */
+@import url("css/dropdown.css");
+
+/* Tag styling */
+@import url("css/tagline.css");

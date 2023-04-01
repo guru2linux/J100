@@ -31,12 +31,6 @@ button[type="submit"] {
   transition: background-color 0.3s;
 }
 
-/* Styles for the form element */
-form {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
-}
 
 /* Styles for the content wrapper element */
 .content-wrapper {

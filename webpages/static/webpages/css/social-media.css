@@ -1,18 +1,16 @@
 /* Styles for the social media container */
 .social-media {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
+  display: flex;
+}
   
-  /* Styles for the social media links */
-  .social-media a {
-    margin-left: 10px;
-  }
+/* Styles for the social media links */
+.social-media a {
+  margin-left: 10px;
+}
   
-  /* Styles for the social media images */
-  .social-media img {
-    width: 30px;
-    height: 30px;
-    filter: invert(1) grayscale(100%)
-  }
+/* Styles for the social media images */
+.social-media img {
+  width: 25px;
+  height: 25px;
+  filter: invert(1) grayscale(100%)
+}

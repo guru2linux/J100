@@ -1,7 +1,13 @@
 /* Styles for the contact form container */
 .contact-form-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-  }
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
   
+/* Styles for the form element */
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}

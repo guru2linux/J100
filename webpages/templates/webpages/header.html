@@ -14,21 +14,30 @@
 </head>
 <body>
     <header>
-        <nav>
-          <div class="topnav">
-            <ul>
-                <li><a href={% url 'landing_page' %}>Home</a></li>                
-                <li><a href= {% url 'about_us' %}>About Us</a></li>
-                <li><a href= {% url 'lodge_officers' %}>Lodge Members</a></li>
-                <li><a href= {% url 'contact_us' %}>Contact Us</a></li>
-            </ul>
-          </div> 
-          <div class="tagline"> <span> Jerusulum Military Lodge 100</span> </div>
-        <div class="social-media">
+      <nav>  
+        <div class="middle-nav">
+          <ul>
+              <li><a href={% url 'landing_page' %}>Home</a></li>             
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle">About Us</a>
+                <ul class="dropdown-menu">
+                  <li><a href={% url 'history' %}>History</a></li>
+                  <li><a href={% url 'lodge_officers' %}>Lodge Members</a></li>
+                </ul>
+              </li>
+              <li><a href= {% url 'contact_us' %}>Contact Us</a></li>
+          </ul>
+          <div class="social-media">
             <a href="https://www.facebook.com/JML100PHA"><img src="{% static 'webpages/images/facebook.png' %}" alt="Facebook"></a>
             <a href="https://www.instagram.com/jerusalem_military_lodge_100/"><img src="{% static 'webpages/images/instagram.png' %}" alt="Instagram"></a>
+          </div>
         </div>
-      </nav>
+      </nav>  
+        <nav>
+          <div class="topnav">
+            <div class="tagline"> <span> Jerusulum Military Lodge 100</span> </div>
+          </div>
+        </nav>
     </header>
 </body>
 </html>

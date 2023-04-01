@@ -11,9 +11,9 @@ class LandingPageView(View):
         return render(request, 'webpages/landing_page.html')
 
 
-class AboutUsView(View):
+class HistoryView(View):
     def get(self, request):
-        return render(request, 'webpages/about_us.html')
+        return render(request, 'webpages/history.html')
 
 
 class LodgeOfficersView(View):

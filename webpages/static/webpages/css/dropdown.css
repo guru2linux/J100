@@ -1,0 +1,20 @@
+/* Drop-down menu styles */
+.dropdown .dropdown-menu {
+  
+    left: 0;
+    top: 100%; /* Adjust the positioning */
+    display: none;
+    list-style-type: none;
+    min-width: 100%;
+    /* z-index: 1;  Ensure the dropdown menu is above other content */
+  }
+  
+  .dropdown-menu a {
+    padding: 10px;
+  }
+
+  /* Show the drop-down menu on hover */
+  .dropdown:hover .dropdown-menu {
+    display: inline;
+  }
+  
