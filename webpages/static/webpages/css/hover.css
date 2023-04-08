@@ -1,9 +1,0 @@
-/* Styles for the submit button element when hovering */
-button[type="submit"]:hover {
-    background-color: #ddd673;
-  }
-
-nav a:hover {
-  color: #fff;
-} 
-

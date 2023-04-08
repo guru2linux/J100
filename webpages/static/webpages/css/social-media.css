@@ -12,5 +12,5 @@
 .social-media img {
   width: 25px;
   height: 25px;
-  filter: invert(1) grayscale(100%)
+  filter: invert(1) grayscale(100%);
 }

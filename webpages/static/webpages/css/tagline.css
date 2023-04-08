@@ -1,9 +1,24 @@
 /* Tagline */
 
 .tagline {
-    font-size: 40px;
-    color: rgb(252, 251, 251);
-    
-   
+    font-size: 30px;
+    color: rgb(255, 255, 255);  
 }
+
+.image-bg {
+    position: relative;
+  }
+  
+  .image-bg img {
+    display: block;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    
+    background-color: #666144;
+    opacity: 0.5; /* Change the color and opacity */
+    pointer-events: none; /* Make the overlay not interfere with clicks on the image */
+  }
+  
   

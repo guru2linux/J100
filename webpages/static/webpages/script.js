@@ -1,5 +1,23 @@
+$(document).ready(function() {
+  $('#menu-icon').click(function() {
+      $('.nav-menu ul').toggleClass('visible');
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+toggle between hiding and showing the dropdown content 
 function myFunction() {
   document.getElementsByClassName("myDropdown").classList.toggle("show");
 }
@@ -16,4 +34,4 @@ window.onclick = function(event) {
       }
     }
   }
-}
+} */

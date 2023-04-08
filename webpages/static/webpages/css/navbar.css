@@ -3,7 +3,11 @@ nav .topnav {
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 
 nav .middle-nav{
     display: flex;
@@ -16,3 +20,8 @@ nav .middle-nav{
 nav a {
     color: rgb(252, 251, 251);
 }
+
+nav a:hover {
+    color: #fff;
+} 
+  

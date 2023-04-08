@@ -1,15 +1,15 @@
 /* Styles for the HTML and body elements */
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: #000;
-    color: white;
+html, body{
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  color: white;
+  
 }
 
-/* Styles for the h1 element */
-h1{
+h1 {
   text-align: center;
 }
 
@@ -29,6 +29,11 @@ button[type="submit"] {
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
+}
+
+/* Styles for the submit button element when hovering */
+button[type="submit"]:hover {
+  background-color: #ddd673;
 }
 
 
