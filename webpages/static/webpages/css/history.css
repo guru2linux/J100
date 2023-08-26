@@ -1,0 +1,24 @@
+body {
+    background-color: #000000;
+  }
+  
+  p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 10px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #FFFF00;
+    margin: 20px 0;
+  }
+  
+  .highlight {
+    color: #FFFF00;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+  }

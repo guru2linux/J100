@@ -49,3 +49,8 @@ input, textarea {
   border: 1px solid #ccc;
   
 }
+
+p {
+  text-align: center;
+  padding: 20;
+}
