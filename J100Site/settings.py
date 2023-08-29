@@ -80,7 +80,7 @@ def load_passwords(file_path):
         passwords = json.load(file)
     return passwords
 
-passwords = load_passwords('/media/eelnice/Codes/passwords.json')
+passwords = load_passwords('/mnt/Code/passwords.json')
 
 DATABASES = {
     'default': {
